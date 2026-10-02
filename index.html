@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>I'm Sorry</title>
+  <meta name="description" content="A heartfelt apology. I'm truly sorry for the hurt I caused.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.6s-8.2-5.2-8.2-11A4.6 4.6 0 0 1 12 6.9a4.6 4.6 0 0 1 8.2 2.7c0 5.8-8.2 11-8.2 11Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-heart-fill" viewBox="0 0 24 24"><path d="M12 21.2s-9-5.7-9-12.2A5.1 5.1 0 0 1 12 6a5.1 5.1 0 0 1 9 3c0 6.5-9 12.2-9 12.2Z" fill="currentColor"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M12 4.2c-4.6 0-8.2 3-8.2 6.9 0 2.2 1.2 4.1 3 5.4l-.7 3 3.3-1.7c.9.2 1.7.3 2.6.3 4.6 0 8.2-3 8.2-6.9S16.600 4.200 12 4.200Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="8.400" cy="11.200" r="1" fill="currentColor"/><circle cx="12" cy="11.200" r="1" fill="currentColor"/><circle cx="15.600" cy="11.200" r="1" fill="currentColor"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.800 2.500 5.200 5.700.8-4.100 4 1 5.700L12 16.800l-5.100 2.700 1-5.700-4.100-4 5.700-.8L12 3.800Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-infinity" viewBox="0 0 24 24"><path d="M12 12c-1.600-2.300-3.200-3.900-5.200-3.900a3.900 3.900 0 1 0 0 7.800c2 0 3.600-1.600 5.200-3.900Zm0 0c1.600 2.300 3.200 3.900 5.200 3.900a3.900 3.900 0 1 0 0-7.800c-2 0-3.600 1.600-5.200 3.900Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Header -->
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="#top" class="brand" aria-label="I'm Sorry — home">
+      <svg class="brand-heart" aria-hidden="true"><use href="#i-heart-fill"/></svg>
+      <span class="brand-text script">I'm Sorry</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="#top" class="nav-link is-active" data-section="top">Home</a>
+      <a href="#apology" class="nav-link" data-section="apology">My Apology</a>
+      <a href="#why" class="nav-link" data-section="why">Why I'm Sorry</a>
+      <a href="#promise" class="nav-link" data-section="promise">A Promise</a>
+    </nav>
+
+    <button class="heart-toggle" id="heartToggle" type="button" aria-label="Send a little love" aria-pressed="false">
+      <svg aria-hidden="true"><use href="#i-heart"/></svg>
+    </button>
+
+    <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-media" aria-hidden="true">
+      <img src="assets/hero.jpg" alt="">
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <span class="hero-rule"></span>
+        <h1 class="hero-title script">
+          <span class="line-1">I'm Sorry</span>
+          <span class="line-2">for hurting you
+            <svg class="title-heart" aria-hidden="true"><use href="#i-heart"/></svg>
+          </span>
+        </h1>
+        <p class="hero-text">You mean the world to me, and I never want to see you upset. I know I made a mistake, and I'm truly sorry for the hurt I caused.</p>
+        <button class="btn" id="forgiveBtn" type="button">
+          <span>Please Forgive Me</span>
+          <svg aria-hidden="true"><use href="#i-heart"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature strip -->
+  <section class="features" id="why" aria-label="Why I'm sorry">
+    <div class="container">
+      <ul class="feature-grid">
+        <li class="feature">
+          <span class="feature-icon"><svg aria-hidden="true"><use href="#i-heart"/></svg></span>
+          <h2>I Miss Your Smile</h2>
+          <p>Your happiness means<br>everything to me.</p>
+        </li>
+        <li class="feature">
+          <span class="feature-icon"><svg aria-hidden="true"><use href="#i-chat"/></svg></span>
+          <h2>I'm Truly Sorry</h2>
+          <p>I understand if you're upset.<br>I'm here to listen.</p>
+        </li>
+        <li class="feature">
+          <span class="feature-icon"><svg aria-hidden="true"><use href="#i-star"/></svg></span>
+          <h2>I Value You</h2>
+          <p>You are my favorite person,<br>now and always.</p>
+        </li>
+        <li class="feature">
+          <span class="feature-icon"><svg aria-hidden="true"><use href="#i-infinity"/></svg></span>
+          <h2>I Want a Fresh Start</h2>
+          <p>Let's move forward,<br>stronger together.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Letter -->
+  <section class="letter" id="apology">
+    <div class="container letter-inner">
+      <figure class="polaroid">
+        <img src="assets/couple.jpg" alt="A couple watching the sunset together">
+        <svg class="polaroid-heart" aria-hidden="true"><use href="#i-heart"/></svg>
+      </figure>
+
+      <div class="letter-copy">
+        <h2 class="script letter-title">Here's My Heart...</h2>
+        <p>I know my words and actions hurt you, and that was never my intention. You mean so much to me, and I hate the thought of seeing you sad. You bring so much love, joy and light into my life, and I don't want to take that for granted. I am truly sorry, and I hope you can forgive me.</p>
+        <p>I promise to do better, to be more understanding, and to always choose you — because you are worth it.</p>
+        <p class="signoff script">Always yours,</p>
+        <svg class="signoff-heart" aria-hidden="true"><use href="#i-heart"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-wrap" id="promise">
+    <div class="container">
+      <div class="cta-card">
+        <svg class="cta-spark" viewBox="0 0 90 60" aria-hidden="true">
+          <g fill="none" stroke="#f0605d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M44 53C26 40 24 30 24 24c0-7 5-11 10-11 4 0 8 3 10 8 2-5 6-8 10-8 5 0 10 4 10 11 0 6-3 14-20 29Z" transform="translate(-3 0)"/>
+            <path d="M3 21l11 3M6 38l9-6M72 8l-5 9M85 22l-9 4"/>
+          </g>
+        </svg>
+        <div class="cta-copy">
+          <h2 class="script">Can we start again?</h2>
+          <p>I really hope you'll forgive me.</p>
+        </div>
+        <button class="btn btn-sm" id="yesBtn" type="button">
+          <span>Say Yes</span>
+          <svg aria-hidden="true"><use href="#i-heart"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-line">
+    <span></span>
+    <p>Better <svg aria-hidden="true"><use href="#i-heart"/></svg>Together</p>
+    <span></span>
+  </div>
+</footer>
+
+<!-- Response dialog -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal-card">
+    <svg class="modal-heart" aria-hidden="true"><use href="#i-heart-fill"/></svg>
+    <h3 class="script" id="modalTitle">Thank you</h3>
+    <p id="modalText">Thank you for hearing me out. It means everything.</p>
+    <button class="btn btn-sm" id="modalClose" type="button"><span>Close</span></button>
+  </div>
+</div>
+
+<div class="hearts-layer" id="heartsLayer" aria-hidden="true"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
