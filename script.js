@@ -127,7 +127,7 @@
   yesBtn.addEventListener('click', function () {
     burst(yesBtn, 22);
     setTimeout(function () {
-      openModal('Thank you', 'Thank you for giving us a fresh start. I promise to make it count.', yesBtn);
+      openModal('Thank you', 'Thank you for giving us a fresh start. I make it count.', yesBtn);
     }, 500);
   });
 })();
